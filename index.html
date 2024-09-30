@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmalTag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="bg-slate-100" >
+   
+
+    <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
+        <div class="flex justify-between items-center ">
+          <span class="text-2xl font-[Poppins] cursor-pointer">
+            <img src="img/logo.png" alt="">
+          </span>
+    
+          <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+    
+        <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+          <li class="mx-4 my-6 md:my-0 ">
+            <a href="#" class="text-xl hover:text-cyan-500 duration-500">Home</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-xl hover:text-cyan-500 duration-500">About Us</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-xl hover:text-cyan-500 duration-500 text-red-500">Upskill</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-xl hover:text-cyan-500 duration-500">Contact us </a>
+          </li>
+          
+          <button class="bg-red-400 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-red-500 rounded ">
+            Register Interest
+          </button>
+    
+        </ul>
+      </nav>
+    
+    
+      <!-- sectton 1 start-->
+
+      <section class="w-full flex justify-center md:h-[60vh] relative">
+        <div class="w-full flex justify-center md:ml-6 rounded mr-4 h-[90vh] bg-[url('img/sec1.jpg')] bg-no-repeat bg-cover relative">
+            
+           <!-- div remove z-index problem hoite pare -->
+            <div class="flex flex-col justify-center text-center py-8 items-center text-white w-[80%] mx-auto md:w-full relative "> 
+                <p class="text-xl font-semibold">
+                    Discover <span class="text-red-500">-</span> Interact <span class="text-red-500">-</span> Engage
+                </p>
+                <h1 class="text-3xl md:text-7xl max-w-full">
+                    Connecting <span class="text-red-500 underline">talent</span> to <br> opportunity through <span class="text-red-500 underline">skills</span>
+                </h1>
+                <p class="pt-8 md:w-full">
+                    We foster a skill-focused environment enabling students to navigate their career with <br> their self-paced learning journey and businesses to gain market-ready talent.
+                </p>
+                <button class="bg-white px-5 py-3 mt-6 w-60 rounded-full text-red-500 font-semibold flex justify-center hover:bg-slate-300 duration-500 hover:scale-105">
+                    Ask questions
+                </button>
+            </div>
+    
+           
+            <div class="absolute bottom-[-1px] left-0 w-full ">
+                <img src="img/Wave.svg" alt="" class="w-full ">
+            </div>
+        </div>
+    </section>
+    
+    <!-- sectton 1 end-->
+       
+    <!-- sectton 2 start-->
+
+        <section class="md:mt-[300px]">
+            <div class="grid grid-cols-12 space-y-3 ps-5 pe-5 gap-4">
+                
+                <div class="col-span-12 md:col-span-3">
+                    <div class=" flex items-center justify-center p-2 rounded-lg space-y-5 ps-8 pt-8 ">
+                        <h2 class="text-5xl pt-10 font-semibold">
+                            At <span class="text-red-500 border-b-4 border-red-500">C4U</span>,
+                            We Empower: 
+                        </h2>
+                     </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-3 ">
+                    <div class="bg-[#2D3142] p-2 rounded-lg space-y-5 ps-8 pt-4 hover:bg-[#404146] duration-500 hover:scale-105 pb-9 md:pb-3 md:h-72">
+                        <div class="w-10 flex justify-center h-10 rounded-full bg-white items-center">
+                         <img src="img/sec2-img1.png" alt="" class="h-8 mx-auto">
+ 
+                        </div>
+                     <h3 class="text-white font-semibold text-xl">
+                         Students 
+                     </h3>
+ 
+                     <p class="text-white">
+                         We help students find their way in a fast-evolving world by creating a personalised learning journey guaranteed to help stand out in a crowded job market. 
+ 
+                     </p>
+                     </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-3">
+                    <div class="bg-[#2D3142] p-2 rounded-lg space-y-5 ps-8 pt-4 hover:bg-[#404146] duration-500 hover:scale-105 pb-9 md:pb-3 md:h-72">
+                        <div class="w-10 flex justify-center h-10 rounded-full bg-white items-center">
+                         <img src="img/sec2-img2.png" alt="" class="h-8 mx-auto">
+ 
+                        </div>
+                     <h3 class="text-white font-semibold text-xl">
+                        Universities  
+                     </h3>
+ 
+                     <p class="text-white">
+                        We help your emerging talent to unlock their full potential by combining education and work to create future-ready employees 
+ 
+                     </p>
+                     </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-3">
+                    <div class="bg-[#2D3142] p-2 rounded-lg space-y-5 ps-8 pt-4 hover:bg-[#404146] duration-500 hover:scale-105 pb-9 md:pb-3 md:h-72">
+                        <div class="w-10 flex justify-center h-10 rounded-full bg-white items-center">
+                         <img src="img/sec2-img3.png" alt="" class="h-8 mx-auto">
+ 
+                        </div>
+                     <h3 class="text-white font-semibold text-xl">
+                        Businesses 
+                     </h3>
+ 
+                     <p class="text-white">
+                        We enable businesses to tap into the diverse pool of emerging talent cultivated by universities.  the future workforce and revitalise the business world.
+
+ 
+                     </p>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+     <!-- sectton 2 end-->
+
+                  
+    <div>
+        <!-- sectton 3 start-->
+        <section class="grid grid-cols-12 mt-16">
+             <section class="col-span-12 md:col-span-6 space-y-12 ps-[50px] pe-5">
+                <h3 class="text-red-500 text-lg font-semibold">About us</h3>
+                <h2 class="text-5xl font-semibold">Our Mission</h2>
+                <p class="md:text-2xl text-xl">To create a personalised pathway for continuous learning and transferrable skills development.</p>
+          
+                <div class="flex items-center px-5 py-2 gap-5 w-[200px] border-[3px] border-red-500 rounded-full justify-center hover:bg-slate-200 duration-500 hover:translate-y-4">
+                  <button class="text-red-500">Find out more</button>
+                  <img src="img/arrow.png" alt="" class="h-5 w-auto">
+                </div>
+              </section>
+          
+              <section class="col-span-12 md:col-span-6 mx-auto mt-4 md:mt-0">
+                <figure>
+                  <img src="img/sec3img1.png" alt="" class="h-96 object-cover w-full">
+                </figure>
+              </section>
+            </section>
+            <!-- sectton 3 end-->
+            <div class="relative hidden md:block">
+                <img src="img/middel.png" alt="" class="absolute inset-0 m-auto pt-[210px] h-[1150px]">
+              </div>
+            <!-- sectton 4 start-->
+            <section class="grid grid-cols-12 mt-20">
+              <section class="col-span-12 md:col-span-6 mx-auto">
+                <figure>
+                  <img src="img/sec3img.png" alt="" class="h-96 object-cover w-full">
+                </figure>
+              </section>
+          
+              <section class="col-span-12 md:col-span-6 mx-auto space-y-12 ps-[50px] mt-5 md:mt-0 pe-5">
+                <h3 class="text-red-500 text-lg font-semibold">ABOUT US</h3>
+                <h2 class="text-5xl font-semibold">Our Vision</h2>
+                <p class="md:text-2xl text-xl">To have a globally recognised strategic bridge between education and the job market</p>
+          
+                <div class="flex items-center px-5 py-2 gap-5 w-[200px] border-[3px] border-red-500 rounded-full justify-center hover:bg-slate-200 duration-500 hover:translate-y-4">
+                  <button class="text-red-500">Contact us</button>
+                  <img src="img/arrow.png" alt="" class="h-5 w-auto">
+                </div>
+              </section>
+            </section>
+            <!-- sectton 4 end-->
+          </div>
+          
+
+
+            <!-- sectton 5 start-->
+
+            <section class=" ps-[50px]  pe-5 mt-16  bg-white pb-12">
+                <div class="grid grid-cols-12 space-y-12 ps-5 pe-5 gap-">
+
+                 
+                    <div class="md:col-span-4 col-span-12">
+                        <div>
+                            <img src="img/1.png" alt="" class="absolute  pt-16 md:ps-36 ps-24">
+                        </div>
+                        
+
+                        <div class="mt-16">
+                            <img src="img/sec5-img1.png" alt="">
+                            
+                            
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold pb-5">Discover</h3>
+                                
+                            <p class="text-xl">We uncover students unique skills to stand out in a crowded job market
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:col-span-4 col-span-12">
+
+                        <div>
+                            <img src="img/2.png" alt="" class="absolute   md:ps-36 ps-24">
+                        </div>
+                        <div class="pb-5">
+                            <img src="img/sec5-img2.png" alt="">
+                            
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold pb-5">Interact</h3>
+                                
+                            <p class="text-xl">We open doors to new opportunities by expanding your transferrable skills
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:col-span-4 col-span-12">
+
+                        <div>
+                            <img src="img/3.png" alt="" class="absolute   md:ps-36 ps-24">
+                        </div>
+
+                        <div class="pb-5">
+                            <img src="img/sec5-img3.png" alt="">
+                            
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold pb-5">Engage</h3>
+                                
+                            <p class="text-xl">To forester a skill focussed environment that enable students to navigate their ideal career
+
+                            </p>
+                        </div>
+                    </div>
+
+
+                  
+                </div>
+            </section>
+
+            <!-- sectton 5 end -->
+
+
+            <!-- sectton 6 start-->
+
+            <section class="mt-16 text-center">
+                <img src="img/sec6-img1.png" alt="" class="z-[-1] absolute md:h-96 w-full">
+
+                <div class="flex pt-10 justify-center ps-10 md:justify-start md:ps-[70px] items-center ">
+                    <h2 class="text-3xl font-semibold md:text-5xl  ">The Creative Team <br> behind <span class="text-red-500">the door</span>
+                </h2>
+
+                <img src="img/Arrow_10.png" alt="" class="md:h-40 md:pt-5 h-24">
+                </div>
+
+                <div class="grid grid-cols-12  mt-10 gap-5 md:ps-16 md:pe-16 ">
+
+                    <div class="md:col-span-3 col-span-12 bg-[#ffffff] shadow-lg py-8 rounded-lg hover:scale-105 duration-300 ease-in">
+                        <div class="flex flex-col justify-center items-center pt-10">
+                            <figure>
+                                <img src="img/sec6-img-2.png" alt="" class="">
+                            </figure>
+                            <h3 class="text-3xl font-semibold pt-5">
+                                Ekta Mahajan
+                            </h3>
+
+
+                            <p class="text-lg text-gray-400 pt-3">Founder & C.E.O</p>
+
+                            <div class="flex items-center pt-5 gap-6">
+                                <figure><img src="img/sec6-img3.png" alt=""></figure>
+                                <figure><img src="img/sec6-img4.png" alt=""></figure>
+                               <figure> <img src="img/sec6-img5.png" alt=""></figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-3 col-span-12 bg-[#ffffff] shadow-lg py-8 rounded-lg hover:scale-105 duration-300 ease-in">
+                        <div class="flex flex-col justify-center items-center pt-10">
+                            <figure>
+                                <img src="img/sec6-img6.png" alt="" class="">
+                            </figure>
+                            <h3 class="text-3xl font-semibold pt-5">
+                                Toby Potter-Drake
+                            </h3>
+
+
+                            <p class="text-lg text-gray-400 pt-3">Product Manager Associate</p>
+
+                            <div class="flex items-center pt-5 gap-6">
+                                <figure><img src="img/sec6-img3.png" alt=""></figure>
+                                <figure><img src="img/sec6-img4.png" alt=""></figure>
+                               <figure> <img src="img/sec6-img5.png" alt=""></figure>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="md:col-span-3 col-span-12 bg-[#ffffff] shadow-lg py-8 rounded-lg hover:scale-105 duration-300 ease-in">
+                        <div class="flex flex-col justify-center items-center pt-10">
+                            <figure>
+                                <img src="img/sec6-img7.png" alt="" class="">
+                            </figure>
+                            <h3 class="text-3xl font-semibold pt-5">
+                               Ross Davies
+                            </h3>
+
+
+                            <p class="text-lg text-gray-400 pt-3">Corporate Growth Associate</p>
+
+                            <div class="flex items-center pt-5 gap-6">
+                                <figure><img src="img/sec6-img3.png" alt=""></figure>
+                                <figure><img src="img/sec6-img4.png" alt=""></figure>
+                               <figure> <img src="img/sec6-img5.png" alt=""></figure>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="md:col-span-3 col-span-12 bg-[#ffffff] shadow-lg py-8 rounded-lg hover:scale-105 duration-300 ease-in">
+                        <div class="flex flex-col justify-center items-center pt-10">
+                            <figure>
+                                <img src="img/sec6-img8.png" alt="" class="">
+                            </figure>
+                            <h3 class="text-3xl font-semibold pt-5">
+                                Leo crozier 
+                            </h3>
+
+
+                            <p class="text-lg text-gray-400 pt-3">Software Developer/p>
+
+                            <div class="flex items-center pt-5 gap-6">
+                                <figure><img src="img/sec6-img3.png" alt=""></figure>
+                                <figure><img src="img/sec6-img4.png" alt=""></figure>
+                               <figure> <img src="img/sec6-img5.png" alt=""></figure>
+                            </div>  
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+                </div>
+
+            </section>
+            <!-- sectton 6 end-->
+
+            <!-- footer section start-->
+            <section class="mt-[75px] "> 
+                <footer>
+                    <div class="grid grid-cols-12 ps-5 border-b-[1px] pb-8 border-gray-300">
+
+                        <div class="md:col-span-4 col-span-3 md:ps-16 space-y-3">
+                            <figure>
+                                <img src="img/logo.png" alt="">
+                            </figure>
+
+                            <p>Level39</p>
+                            <p> One Canada Square,</p>
+                            <p>Canary Wharf, </p>
+                            <p> London,</p>
+                            <p> E14 5AB</p>
+                        </div>
+
+
+                        <div class="md:col-span-2 col-span-4 ps-5 md:ps-0 space-y-3">
+                            <p class="text-lg font-semibold cursor-pointer">Home</p>
+                            <p>Collaborations</p>
+                            <p>Statistics</p>
+                            <p>How It Works </p>
+                            <p>Testimonials </p>
+                        </div>
+
+                        <div class="md:col-span-2 col-span-3 ps-10 md:ps-0 space-y-3">
+                            <p class="text-lg font-semibold cursor-pointer">About Us</p>
+                            <p>Who We Are</p>
+                            <p>Mission statement </p>
+                            <p>Our Vision</p>
+                            <p>The Team</p>
+                        </div>
+
+                        <div class="md:col-span-2 col-span-6 pt-8 md:pt-0 space-y-3">
+                            <p class="text-lg font-semibold cursor-pointer">Upskill</p>
+                            <p>It Support </p>
+                            <p>Project Managment </p>
+                            <p>Data Analysts</p>
+                            <p>Ux Design</p>
+                        </div>
+
+
+                        
+                        <div class="md:col-span-2 col-span-6 pt-8 md:pt-0 space-y-3">
+                            <p class="text-lg font-semibold cursor-pointer">Contact Us </p>
+                            <p>Your message </p>
+                            <p>Email </p>
+                            <p>Phone number</p>
+                            <p>Linkedin </p>
+                            
+                        </div>
+
+                    </div>
+                    <h3 class="text-center text-lg text-gray-500 pt-3 pb-3">Copyright 2022 Creatives For You LTD</h3>
+                </footer>
+
+
+            </section>
+            <!-- footer section end-->
+
+      <script>
+        function Menu(e){
+          let list = document.querySelector('ul');
+          e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+        }
+      </script>
+</body>
+</html>
